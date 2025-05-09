@@ -1,0 +1,41 @@
+🚀 Build a financial assistant using Amazon Bedrock’s multi-agent collaboration framework. This assistant should simulate a three-agent architecture with the following specifications:
+
+**1. Supervisor Agent (Financial Agent)**
+- Acts as the main orchestrator.
+- Routes requests to specialized agents (portfolio assistant and data assistant).
+- Manages user interaction, breaks down complex queries, and invokes necessary tools.
+
+**2. Portfolio Assistant Agent**
+- Create a portfolio of top-performing companies based on user input (industry + number of companies).
+- Has mock data across Technology and Real Estate industries.
+- Sends portfolio and document summaries via email using AWS SES.
+- Hosted as an AWS Lambda function with an OpenAPI schema for three endpoints:
+    - `/companyResearch`
+    - `/createPortfolio`
+    - `/sendEmail`
+
+**3. Data Assistant Agent**
+- Provides financial data insights, FOMC report summaries, and historical company performance.
+- Integrates with Amazon Bedrock Knowledge Base using Amazon Titan Embeddings.
+- Responds only with data from the synced financial PDFs (stored in S3).
+  
+**Steps to Implement:**
+- Create a mock frontend interface in Streamlit or Flask to simulate interaction.
+- Use Boto3 to integrate with AWS services (Bedrock, SES, Lambda, S3).
+- Upload static JSON company data to simulate industry financials.
+- Simulate knowledge base integration using local PDFs or public FOMC summaries.
+- Use prompt templates and CoT reasoning to guide supervisor behavior.
+
+**Deliverables:**
+- Lambda function code for portfolio assistant.
+- JSON schema for OpenAPI definitions.
+- Python functions to simulate Bedrock agent orchestration locally.
+- A demo UI or CLI that triggers the end-to-end multi-agent interaction.
+
+🛠️ Assume static datasets and simulate real-time data via predefined JSON. You can later extend this with real-time APIs.
+
+🎯 Goal: Build a modular, testable multi-agent orchestration system that mimics Amazon Bedrock capabilities locally using Python.
+
+Use environment variables or a config file for AWS keys. Simulate tool calling and response aggregation manually if Bedrock agent deployment isn't possible directly in Replit.
+
+✅ Target Stack: Python 3.12, Boto3, AWS SDK, Flask or Streamlit for UI, OpenAPI (YAML or JSON), JSON for data mock.
