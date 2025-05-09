@@ -1,0 +1,82 @@
+[
+  {
+    "name": "TechCorp Inc.",
+    "ticker": "TECH",
+    "industry": "technology",
+    "performance_score": 92,
+    "market_cap": "1.2T",
+    "description": "Leading provider of cloud computing services and AI solutions"
+  },
+  {
+    "name": "Quantum Systems",
+    "ticker": "QSYS",
+    "industry": "technology",
+    "performance_score": 88,
+    "market_cap": "850B",
+    "description": "Innovative semiconductor manufacturer specializing in quantum computing"
+  },
+  {
+    "name": "DataMind Labs",
+    "ticker": "DTML",
+    "industry": "technology",
+    "performance_score": 85,
+    "market_cap": "420B",
+    "description": "AI-focused research company developing cutting-edge machine learning models"
+  },
+  {
+    "name": "Infinity Networks",
+    "ticker": "INFN",
+    "industry": "technology",
+    "performance_score": 82,
+    "market_cap": "310B",
+    "description": "Global telecommunications and networking equipment provider"
+  },
+  {
+    "name": "SecureBlock Technologies",
+    "ticker": "SBLK",
+    "industry": "technology",
+    "performance_score": 79,
+    "market_cap": "175B",
+    "description": "Cybersecurity firm specializing in blockchain security solutions"
+  },
+  {
+    "name": "MobileVerse",
+    "ticker": "MVER",
+    "industry": "technology",
+    "performance_score": 77,
+    "market_cap": "145B",
+    "description": "Leading mobile device manufacturer and app ecosystem developer"
+  },
+  {
+    "name": "CloudScale Solutions",
+    "ticker": "CLSC",
+    "industry": "technology",
+    "performance_score": 76,
+    "market_cap": "130B",
+    "description": "Enterprise cloud infrastructure and scalability solutions provider"
+  },
+  {
+    "name": "Robotics Automation Group",
+    "ticker": "RAG",
+    "industry": "technology",
+    "performance_score": 74,
+    "market_cap": "95B",
+    "description": "Industrial robotics and automation systems for manufacturing"
+  },
+  {
+    "name": "Digital Reality Inc.",
+    "ticker": "DRI",
+    "industry": "technology",
+    "performance_score": 72,
+    "market_cap": "82B",
+    "description": "Augmented and virtual reality hardware and software development"
+  },
+  {
+    "name": "Smart Connect Systems",
+    "ticker": "SCS",
+    "industry": "technology",
+    "performance_score": 70,
+    "market_cap": "75B",
+    "description": "IoT devices and smart home connectivity solutions"
+  }
+]

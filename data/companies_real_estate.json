@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Urban Property Group",
+    "ticker": "URPG",
+    "industry": "real_estate",
+    "performance_score": 89,
+    "market_cap": "85B",
+    "description": "Developer and manager of premium commercial properties in major urban centers"
+  },
+  {
+    "name": "Residential REIT",
+    "ticker": "RRET",
+    "industry": "real_estate",
+    "performance_score": 86,
+    "market_cap": "62B",
+    "description": "Real estate investment trust focused on multi-family residential properties"
+  },
+  {
+    "name": "Global Logistics Properties",
+    "ticker": "GLPX",
+    "industry": "real_estate",
+    "performance_score": 84,
+    "market_cap": "58B",
+    "description": "Owner and operator of logistics facilities and warehouses worldwide"
+  },
+  {
+    "name": "Healthcare Facilities Trust",
+    "ticker": "HCFT",
+    "industry": "real_estate",
+    "performance_score": 81,
+    "market_cap": "44B",
+    "description": "Specializes in medical office buildings and healthcare facilities"
+  },
+  {
+    "name": "Digital Infrastructure REIT",
+    "ticker": "DREIT",
+    "industry": "real_estate",
+    "performance_score": 78,
+    "market_cap": "39B",
+    "description": "Owns and manages data centers and digital infrastructure properties"
+  },
+  {
+    "name": "Retail Space Holdings",
+    "ticker": "RTSH",
+    "industry": "real_estate",
+    "performance_score": 75,
+    "market_cap": "35B",
+    "description": "Operates shopping centers and retail spaces in prime locations"
+  },
+  {
+    "name": "Hospitality Properties Group",
+    "ticker": "HPG",
+    "industry": "real_estate",
+    "performance_score": 73,
+    "market_cap": "31B",
+    "description": "Hotel and resort properties in vacation and business destinations"
+  },
+  {
+    "name": "Affordable Housing REIT",
+    "ticker": "AHRT",
+    "industry": "real_estate",
+    "performance_score": 71,
+    "market_cap": "28B",
+    "description": "Develops and manages affordable and workforce housing communities"
+  },
+  {
+    "name": "Mixed-Use Developments Inc.",
+    "ticker": "MUDI",
+    "industry": "real_estate",
+    "performance_score": 69,
+    "market_cap": "25B",
+    "description": "Creates integrated live-work-play developments in growing metropolitan areas"
+  },
+  {
+    "name": "Senior Living Communities",
+    "ticker": "SLC",
+    "industry": "real_estate",
+    "performance_score": 68,
+    "market_cap": "22B",
+    "description": "Retirement communities and assisted living facilities for seniors"
+  }
+]
